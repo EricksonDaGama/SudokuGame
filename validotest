@@ -1,0 +1,55 @@
+/*
+    this.grid=grid;
+    this.filter=filter;
+    int somac=0;
+    int multc=1;
+    int somal=0;
+    int multl=1;
+    if(grid.length==9 && grid[0].length==9){
+
+      for(int i=0;i<v.length;i++){
+        for(int j=0;j<grid.length;j++){
+
+          somac+=v[i][j];
+          multc*=v[i][j];
+
+      }
+
+        if(somac !=45 && multc !=362880){
+
+          return false;
+
+        }
+
+
+    }
+
+    for(int i=0;i<v.length;i++){
+
+      for(int j=0;j<v.length;j++){
+
+        somal+= v[j][i];
+        multl*=v[j][i];
+    }
+
+
+  if(somal!=45 && multl!=362880){
+    return false;
+
+  }
+
+    }
+
+
+
+    \\ filter
+
+    if(filter[0].length!=9 && filter.length!=9 ){
+
+        return false;
+
+        SudokuSolver p=new SudokuSolver(v);
+            
+
+
+    }
